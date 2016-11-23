@@ -1,0 +1,581 @@
+@import url(http://fonts.googleapis.com/css?family=Bad+Script);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+
+body{
+
+height:100%;
+max-width:100%;
+overflow:hidden;
+font-family: 'Bad Script', cursive;
+font-size:20;
+position: fixed;
+}
+
+#mybody{
+	top:0;
+	left:0;
+	width:100%;
+	min-width:100%;
+	min-height:100%;
+	height:100%;
+max-width:100%;
+background:url("naples1.jpg");
+background-size:cover;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+overflow:hidden;
+font-family: 'Bad Script', cursive;
+font-size:20;
+position: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+.usaflag{background:url("USAflag1.png");
+display:block;
+width:46px;
+}
+.italyflag{background:url("italyflag1.png");
+display:block;
+width:46px;
+}
+
+#ant{
+	animation-duration: 1.4s;
+	-webkit-animation-duration: 1.2s;
+}
+
+#vin{
+	animation-duration: 1.4s;
+	animation-delay: .3s;
+	-webkit-animation-duration: 1.4s;
+	-webkit-animation-delay: .3s;
+}
+
+#cio{
+	animation-duration: 1.4s;
+	animation-delay: .6s;
+	-webkit-animation-duration: 1.4s;
+	-webkit-animation-delay: .6s;
+}
+
+#mar{
+	animation-duration: 1.4s;
+	animation-delay: .9s;
+	-webkit-animation-duration: 1.4s;
+	-webkit-animation-delay: .9s;
+}
+
+#raf{
+	animation-duration: 1.4s;
+	animation-delay: 1.2s;
+	-webkit-animation-duration: 1.4s;
+	-webkit-animation-delay: 1.2s;
+}
+
+#giu{
+	animation-duration: 1.4s;
+	animation-delay: 1.5s;
+	-webkit-animation-duration: 1.4s;
+	-webkit-animation-delay: 1.5s;
+}
+
+#years{
+	animation-duration: 1.4s;
+	animation-delay: 1.8s;
+	-webkit-animation-duration: 1.4s;
+	-webkit-animation-delay: 1.8s;
+}
+
+.family{
+	font-size:170%;
+	font-weight:bold;
+	position:relative;
+}
+
+#logo{
+
+margin-top:-5%;
+background:url("cioffilogo3.png") no-repeat;
+padding:10%;
+margin-left:25%;
+background-size:100%;
+width:30%;
+}
+
+#prelogo{
+margin-top:4%;
+margin-left:15%;
+font-size:300%;
+font-weight:bold;
+}
+
+#postlogo{
+font-size:300%;
+font-weight:bold;
+margin-top:-18%;
+margin-left:60%;
+width:30%;
+}
+
+#mytext{
+width:70%;
+margin-left:15%;
+font-size:300%;
+text-align:center;
+color:white;
+font-family: 'Courgette', cursive;
+margin-top:-35%;
+}
+
+a{
+color:white;
+text-decoration:none;
+}
+img{text-decoration:none;}
+
+#everylogo{
+margin-top:-50%;
+}
+
+.mylogo1{
+background:url("log1.png") no-repeat;
+background-position: center; 
+display:block;
+margin:0;
+height:300px;
+width:300px;
+margin-left:93%;
+margin-top:10%;
+}
+
+.mylogo2{
+background:url("log2.png") no-repeat;
+display:block;
+margin:0;
+height:320px;
+width:300px;
+margin-left:95%;
+
+}
+
+.mylogo3{
+background:url("log3.png") no-repeat;
+display:block;
+margin:0;
+height:300px;
+width:300px;
+margin-left:95%;
+padding-top:1%;
+}
+
+#names {
+    position: relative  center center;
+	width:160%;
+    margin-left:-15%; 
+	padding:3%;
+	margin-top:-5%;
+	color:black;
+}
+#stuff{position:absolute;}
+
+/* media queries */
+
+/* ipad portrait */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+and (-webkit-min-device-pixel-ratio: 2){ 
+	
+	
+      #prelogo {
+	margin-top:5%;
+	margin-left:30%;
+	font-size:190%;
+  }
+  
+  #logo{
+	  margin-top:-5%;
+	  background-size:70%;
+	  margin-left:40%;
+  }
+  
+  #postlogo {
+	margin-top:-18%;
+	margin-left:65%;
+	font-size:190%;
+	width:35%;
+  }
+  
+  #names {
+	width:160%;
+    margin-left:5%; 
+	margin-top:5%;
+	line-height:1;
+	font-size:200%;
+}
+
+#everylogo{
+	margin-top:-90%;
+	margin-left:-250%;
+}
+
+.mylogo1{
+margin-left:93%;	
+}
+
+.mylogo1, .mylogo2, .mylogo3{
+	background-size:80%;
+	height:140px;
+	width:auto;
+	text-align:center;
+	padding-bottom:2%;
+	
+}
+
+#mytext {
+	font-size:30%;
+	margin-top:-5%;
+	margin-left: 15%;
+	
+	}
+	
+#mytext a{font-size:80%;}
+	.family{
+	font-size:70%;	
+}
+
+}
+
+/* ipad landscape */
+
+@media only screen 
+and (min-device-width : 767px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) 
+and (-webkit-min-device-pixel-ratio: 2){
+
+
+      #prelogo {
+	margin-top:5%;
+	margin-left:35%;
+	font-size:200%;
+  }
+  
+  #logo{
+	  margin-top:-4%;
+	  background-size:65%;
+	  margin-left:43%;
+  }
+  
+  #postlogo {
+	margin-top:-19%;
+	margin-left:65%;
+	font-size:200%;
+  }
+  
+  #names {
+	width:160%;
+    margin-left:3%; 
+	margin-top:-6%;
+	line-height:.9;
+	font-size:200%;
+}
+
+#everylogo{
+	margin-top:-65%;
+	margin-left:-250%;
+}
+
+.mylogo1{
+margin-left:93%;	
+}
+
+.mylogo1, .mylogo2, .mylogo3{
+	background-size:80%;
+	height:140px;
+	width:auto;
+	text-align:center;
+	padding-bottom:2%;
+	
+}
+
+#mytext {
+	font-size:30%;
+	margin-top:-18%;
+	margin-left: 18%;
+	
+	}
+	
+#mytext a{font-size:80%;}
+
+	.family{
+	font-size:70%;	
+}
+
+ }
+
+ /* phone portrait */
+ 
+ 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) 
+and (-webkit-min-device-pixel-ratio: 2){
+	
+	  #prelogo {
+	margin-top:10%;
+	margin-left:10%;
+	font-size:150%;
+  }
+  
+  #logo{
+	  margin-top:-7%;
+	  margin-left:24%;
+	  height:50%;
+  }
+  
+  #postlogo {
+	margin-top:-20%;
+	margin-left:60%;
+	font-size:150%;
+	width:45%;
+  }
+  
+  #names {
+	width:160%;
+    margin-left:5%; 
+	margin-top:5%;
+	line-height:1;
+	
+}
+
+
+#everylogo{
+	margin-top:-105%;
+	margin-left:-300%;
+}
+
+.mylogo1{
+margin-left:92%;	
+}
+
+.mylogo1, .mylogo2, .mylogo3{
+	background-size:80%;
+	height:80px;
+	width:auto;
+	text-align:center;
+	
+}
+
+#mytext {
+	font-size:60%;
+	margin-top:-10%;
+	margin-left: 20%;
+	overflow:hidden;
+	}
+	
+#mytext a{font-size:60%;}
+
+	.family{
+	font-size:115%;	
+}
+
+}
+
+/* phone landscape */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) 
+and (orientation : landscape) 
+and (-webkit-min-device-pixel-ratio: 2){ 
+
+  
+  #prelogo {
+	margin-top:5%;
+	margin-left:35%;
+	font-size:150%;
+  }
+  
+  #logo{
+	  margin-top:-5%;
+	  background-size:50%;
+	  margin-left:43%;
+  }
+  
+  #postlogo {
+	margin-top:-20%;
+	margin-left:60%;
+	font-size:150%;
+	width:30%;
+  }
+  
+  #names {
+	width:160%;
+    margin-left:5%; 
+	margin-top:-7%;
+	line-height:1;
+	font-size:110%;
+
+}
+
+#everylogo{
+	display:none;
+}
+
+
+.mylogo1, .mylogo2, .mylogo3{
+	background-size:100%;
+	height:50px;
+	width:50px;
+	text-align:center;
+}
+
+#mytext {
+	font-size:30%;
+	margin-top:-15%;
+	margin-left: 45%;
+	overflow:hidden;
+	}
+	
+#mytext a{font-size:60%;}
+	.family{
+	font-size:60%;	
+}
+
+}
+
+
+/* phone portrait */
+ 
+ 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (min-moz-device-pixel-ratio: 3){
+	
+	  #prelogo {
+	margin-top:10%;
+	margin-left:20%;
+	font-size:130%;
+  }
+  
+  #logo{
+	  margin-top:-7%;
+	  background-size:80%;
+	  margin-left:32%;
+  }
+  
+  #postlogo {
+	margin-top:-20%;
+	margin-left:60%;
+	font-size:130%;
+	width:40%;
+  }
+  
+  #names {
+	width:160%;
+    margin-left:5%; 
+	margin-top:5%;
+	line-height:1;
+	font-size:100%;
+}
+
+#everylogo{
+	margin-top:-95%;
+	margin-left:-300%;
+}
+
+.mylogo1{
+margin-left:92%;	
+}
+
+.mylogo1, .mylogo2, .mylogo3{
+	background-size:80%;
+	height:80px;
+	width:auto;
+	text-align:center;
+	
+}
+
+#mytext {
+	font-size:30%;
+	margin-top:5%;
+	margin-left: 20%;
+	overflow:hidden;
+	}
+	
+#mytext a{font-size:60%;}
+	.family{
+	font-size:60%;	
+}
+
+}
+
+/* phone landscape */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) 
+and (orientation : landscape) 
+and (-webkit-min-device-pixel-ratio: 3){ 
+
+  
+  #prelogo {
+	margin-top:5%;
+	margin-left:35%;
+	font-size:150%;
+  }
+  
+  #logo{
+	  margin-top:-5%;
+	  background-size:50%;
+	  margin-left:43%;
+  }
+  
+  #postlogo {
+	margin-top:-20%;
+	margin-left:60%;
+	font-size:150%;
+	width:30%;
+  }
+  
+  #names {
+	width:160%;
+    margin-left:5%; 
+	margin-top:-13%;
+	line-height:1;
+}
+
+#everylogo{
+	display:none;
+}
+
+
+.mylogo1, .mylogo2, .mylogo3{
+	background-size:100%;
+	height:50px;
+	width:50px;
+	text-align:center;
+}
+
+#mytext {
+	font-size:30%;
+	margin-top:-15%;
+	margin-left: 45%;
+	overflow:hidden;
+	}
+	
+#mytext a{font-size:60%;}
+	.family{
+	font-size:60%;	
+}
+
+}
